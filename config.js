@@ -2,10 +2,10 @@ import {createConnection, createPool} from "mysql2";
 const config = createPool ({
     host : '127.0.0.1',
     user: 'root',
-    password: 'Joseth1234',
-    database: 'biblioteca',
+    password: '',
+    database: 'biblioteca2025',
     port: 3306,
-    enableKeepAlives: true,
-    keepAliveIbitialDelay:true
+    enableKeepAlive: true,
+    keepAliveInitialDelay:true
 })
 export{config}
